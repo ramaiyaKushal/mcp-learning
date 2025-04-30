@@ -1,5 +1,7 @@
 # Model Context Protocol (MCP)
 
+All credits to : https://github.com/ShawhinT/YouTube-Blog/
+
 Fourth example in AI agents series. Here, I build a customer MCP server to give any AI app access to a toolset for an Artificial Virtual Assistant (AVA).
 
 **Links**
