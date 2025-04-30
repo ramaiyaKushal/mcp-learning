@@ -7,6 +7,10 @@ Fourth example in AI agents series. Here, I build a customer MCP server to give 
 - [Video](https://youtu.be/N3vHJcHBS-w)
 - [Blog](https://medium.com/data-science-collective/model-context-protocol-mcp-explained-ef5c33c5fe05)
 
+<a href="https://glama.ai/mcp/servers/@ramaiyaKushal/mcp-learning">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@ramaiyaKushal/mcp-learning/badge" alt="AVA Server MCP server" />
+</a>
+
 ## How to run this example
 
 1. Clone this repo
