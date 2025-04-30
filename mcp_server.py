@@ -13,6 +13,9 @@ def ava(user_name: str, user_title: str) -> str:
 
 # Add Resoruce
 # Define resources
+# FORMAT :
+#@mcp.resouce - decorator
+#@mcp.resouce(<Unique Resource Identifier (URI)>)
 @mcp.resource("email-examples://3-way-intro")
 def write_3way_intro() -> str:
     """Example of a 3-way intro email"""
@@ -23,4 +26,10 @@ def write_3way_intro() -> str:
 def write_call_followup() -> str:
     """Example of a call follow-up email"""
     with open("email-examples/call-follow-up.md", "r") as file:
+        return file.read()
+
+@mcp.resource("directory://all")
+def get_directory() -> str:
+    """Get the entire directory of contacts"""
+    with open("directory.csv", "r") as file:
         return file.read()
