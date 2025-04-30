@@ -1,4 +1,5 @@
 ## 3-way Introduction Example
+
 Here is an example between Sarah (a prospect) and David (an AI consultant). Note: these names and links are fictional.
 
 ```
